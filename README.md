@@ -41,7 +41,7 @@ An optimal portfolio is obtained using constrained optimization (SLSQP) and high
 Visualizations include:
 - Risk vs Return scatter plot of simulated portfolios
 - Highlighted optimal portfolio allocation
-- ![Portfolio Space](results/portfolio_plot.png)
+- ![Portfolio Space](1output.png)
 
 #Key Insights 
 - The portfolio space demonstrates the inherent trade-off between risk and return
