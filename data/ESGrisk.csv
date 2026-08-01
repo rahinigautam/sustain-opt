@@ -1,0 +1,16 @@
+Ticker,Company Name,ESG Score ,Environment,Social,Governance,Sector
+AAPL,Apple Inc.,18.9,2.3,8,8.6,Tech
+NVDA,NVIDIA Corp. ,12.5,2.7,4.1,5.7,Tech
+TSLA,"Tesla, Inc.",24.8,3,14.1,7.6,Tech
+JNJ,Johnson&Johnson,22.4,2.1,14.5,5.8,Healthcare 
+UNH,UnitedHealth Group Inc.,16.9,0.1,11.9,4.9,Healthcare 
+PFE,Pfizer Inc.,18.6,2.7,9.5,6.4,Healthcare 
+PG,The Procter & Gamble Company,25.8,9.5,10.5,5.7,Consumer Goods
+KO,The Coca-Cola Company,28.3,12.7,10.6,5,Consumer Goods
+MCD,McDonald's Corporation,28.5,9.9,13,5.6,Consumer Goods
+MA,Mastercard Incorporated,14.3,1.6,8.4,4.3,Financial Services
+V,Visa Inc. ,14.3,2.5,7.3,4.4,Financial Services
+JPM,JPMorgan Chase & Co.,27.3,2.4,14,10.8,Financial Services
+NEE,"NextEra Energy, Inc. ",26.6,9.9,12.1,4.6,Energy
+ENPH,Enphase Energy,19.9,4.8,8.8,6.3,Energy
+VWS.CO,Vestas Wind Systems,16.3,3.8,8.6,3.9,Energy
