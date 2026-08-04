@@ -1,69 +1,49 @@
-# ESG Portfolio Optimizer using Risk Clustering
+Overview
 
-# 📖 Project Overview
- 
-This project explores the construction of ESG-focused stock portfolios using risk-based clustering to group assets by volatility patterns, enabling construction of sustainable and diversified investment portfolios.The goal is to combine financial performance with sustainability metrics (Environmental, Social, and Governance) to design portfolios that are both resilient and responsible.  
----
+This project develops an ESG-constrained portfolio optimization framework by combining classical portfolio theory with modern quantitative finance techniques. The objective is to construct portfolios that balance expected return, risk, and environmental, social, and governance (ESG) considerations while improving robustness against estimation uncertainty.
 
-## 🛠️ Project Setup
-- Environment: Python 3.11 with `venv`
-- Dependencies: See `requirements.txt'
-- Data Sources: 
-  - ESG ratings spreadsheet (private dataset)
-  - Yahoo Finance (via `yfinance`)
+Features
 
+* Historical price and ESG data collection
+* Monte Carlo portfolio simulation
+* Markowitz mean-risk optimization
+* Ledoit–Wolf covariance shrinkage
+* Convex optimization using CVXPY
+* Random Matrix Theory (RMT) diagnostics
+* Distributionally Robust Optimization (Wasserstein regularization)
+* Sensitivity analysis
+* Out-of-sample portfolio validation
 
+Methodology
 
----
+The project follows the workflow:
+Data Collection
+        ↓
+Monte Carlo Portfolio Simulation
+        ↓
+Markowitz Portfolio Optimisation
+        ↓
+Ledoit–Wolf Covariance Estimation
+        ↓
+CVXPY Convex Reformulation
+        ↓
+Random Matrix Theory Diagnostics
+        ↓
+Distributionally Robust Optimisation
+        ↓
+Sensitivity Analysis
+        ↓
+Out-of-Sample Validation
 
-## 📂 Project Structure
-~notebooks (jupyter notebooks for development)
-~data (ESG ratings spreadsheet and processed datasets)
-~results (generated plots, metrics, portfolio outputs)
-~requirements.txt  (dependencies)
-~README.md (project documentation)
+Results
 
----
+The project compares multiple portfolio construction techniques under ESG constraints and evaluates their robustness using sensitivity analysis and out-of-sample testing. Results illustrate how covariance estimation and robust optimization influence portfolio stability, diversification, and risk-return characteristics.
 
-## 🧠 Research Motivation
-- Why ESG risks matter
-   
+Future Improvements
 
-- Role of risk clustering in portfolio optimization.
-- Gap this project aims to fill.
-
----
-
-## 🚧 Work in Progress
-- [x] Setup environment and dependencies  
-- [x] Connect Jupyter to `venv` kernel  
-- [ ] Load and clean ESG ratings data  
-- [ ] Collect historical stock prices (via `yfinance`)  
-- [ ] Perform exploratory data analysis  
-- [ ] Apply risk clustering and portfolio optimization  
-- [ ] Evaluate portfolio performance  
-- [ ] Draft final report and visualizations  
-
----
-
-## 📊 Results & Findings
-*(Leave blank for now. Later you’ll add your plots, metrics, and portfolio comparison tables here.)*
-
----
-
-## 🌍 Future Work
-- Extend to global ESG datasets.  
-- Compare ESG portfolio performance vs traditional mean-variance optimization.  
-- Test with factor models (Fama-French, ESG factor tilts).  
-
----
-
-## 📚 References
-*(Start a reference list: academic papers, BlackRock/Goldman Sachs ESG reports, etc.)*
-
-- Role of risk clustering in portfolio optimization.
-- Gap this project aims to fill.
-
-*(Start with 2–3 bullet points; expand later with references and insights.)*
-
----
+* Dynamic portfolio rebalancing
+* Transaction cost modelling
+* Time-varying ESG scores
+* Multi-period portfolio optimization
+* Black–Litterman expected return estimation
+* Real market deployment and backtesting
